@@ -6,7 +6,7 @@ require('dotenv').load
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 8080;
 
 
 const swaggerOptions = {
@@ -74,4 +74,4 @@ app.use(function (req, res) {
 
 app.listen(port);
 
-console.log('RESTful API server started on: ' + port);
+console.log('RESTful API server started on: hjhj  ' + port);
